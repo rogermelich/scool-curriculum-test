@@ -1373,13 +1373,18 @@
             "dist": {
                 "type": "path",
                 "url": "/home/roger/Code/scool/curriculum",
-                "reference": "d93e313d31f880280cc9e3d181e6008e48bec81f",
+                "reference": "a573f4167c749eba0330e35191fdda4e9ba1025f",
                 "shasum": null
             },
             "require": {
                 "laravel/framework": "^5.3"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Scool\\Curriculum\\": "src"
+                }
+            },
             "license": [
                 "MIT"
             ],
